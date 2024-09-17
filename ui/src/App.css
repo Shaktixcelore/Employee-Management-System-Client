@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stat-block {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-top: 0;
+}
